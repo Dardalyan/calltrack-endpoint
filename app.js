@@ -109,4 +109,4 @@ router.post('/caltrack/update/personalInfo',updateInfo);
 router.get('/caltrack/get/currentInfo',currentInfo);
 
 app.use(router);
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
