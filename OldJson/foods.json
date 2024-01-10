@@ -1,0 +1,160 @@
+{
+  "fruit": {
+    "apple": {
+      "amount": 100,
+      "cal": 52
+    },
+    "banana": {
+      "amount": 100,
+      "cal": 88
+    },
+    "orange": {
+      "amount": 100,
+      "cal": 47
+    },
+    "tomato": {
+      "amount": 100,
+      "cal": 32
+    },
+    "strawberry": {
+      "amount": 100,
+      "cal": 46
+    },
+    "watermelon": {
+      "amount": 100,
+      "cal": 26
+    },
+    "melon": {
+      "amount": 100,
+      "cal": 51
+    },
+    "pear": {
+      "amount": 100,
+      "cal": 52
+    },
+    "quince": {
+      "amount": 100,
+      "cal": 56
+    },
+    "fig": {
+      "amount": 100,
+      "cal": 74
+    },
+    "apricot": {
+      "amount": 100,
+      "cal": 48
+    },
+    "peach": {
+      "amount": 100,
+      "cal": 39
+    },
+    "date": {
+      "amount": 100,
+      "cal": 277
+    }
+  },
+  "fish":{
+    "sea bass": {
+      "amount": 100,
+      "cal": 97
+    },
+    "anchovy": {
+      "amount": 100,
+      "cal": 115
+    },
+    "sardine": {
+      "amount": 100,
+      "cal": 138
+    }
+  },
+  "meat": {
+    "ribeye": {
+      "amount": 100,
+      "cal": 228
+    },
+    "tenderloin": {
+      "amount": 100,
+      "cal": 149
+    },
+    "chop": {
+      "amount": 100,
+      "cal": 187
+    },
+    "rib": {
+      "amount": 100,
+      "cal": 286
+    }
+  },
+  "chicken": {
+    "leg (skinless)": {
+      "amount": 100,
+      "cal": 116
+    },
+    "breast": {
+      "amount": 100,
+      "cal": 120
+    },
+    "wing": {
+      "amount": 100,
+      "cal": 330
+    }
+  },
+  "grain": {
+    "oat": {
+      "amount": 100,
+      "cal": 351
+    },
+    "rice": {
+      "amount": 100,
+      "cal": 360
+    },
+    "pasta": {
+      "amount": 100,
+      "cal": 369
+    },
+    "bread": {
+      "amount": 100,
+      "cal": 90
+    }
+  },
+  "vegetable": {
+    "potato": {
+      "amount": 100,
+      "cal": 77
+    },
+    "bean": {
+      "amount": 100,
+      "cal": 77
+    },
+    "green pea": {
+      "amount": 100,
+      "cal": 81
+    },
+    "spinach": {
+      "amount": 100,
+      "cal": 17
+    },
+    "aubergine": {
+      "amount": 100,
+      "cal": 21
+    }
+  },
+  "legume": {
+    "haricot bean": {
+      "amount": 100,
+      "cal": 139
+    },
+    "chickpeas": {
+      "amount": 100,
+      "cal": 360
+    },
+    "broad beans": {
+      "amount": 100,
+      "cal": 47
+    },
+    "kidney bean": {
+      "amount": 100,
+      "cal": 333
+    }
+  }
+}
