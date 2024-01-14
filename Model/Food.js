@@ -22,4 +22,30 @@ class Food{
             return null;
         }
     }
+
+    getAllFood = async ()=>{
+        let foodList=[];
+        try {
+            let snapshot = await references.food.where('amount','==',100).get();
+            snapshot.forEach(doc=> {
+                foodList.push(doc.data());
+            });
+
+            for(let i =0;i<foodList.length;i++){
+                let catName;
+                let category = await references.category.where('id','==',foodList.at(i)['cat_id']).get();
+                category.forEach(dc=>{
+                    catName = dc.data()['name'];
+                });
+                foodList.at(i).cat_name = catName;
+            }
+
+            console.log(foodList);
+            return foodList;
+        }catch (e){
+            console.log(null);
+        }
+    }
 }
+
+module.exports = Food;

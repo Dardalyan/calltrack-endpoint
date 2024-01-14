@@ -14,16 +14,18 @@ class User{
                     disabled: false,
                 }
             );
-            let snapshot = await references.userInfo.add(
+            await references.userInfo.add(
                 {
                     'age':null,
+                    "calorieHave":0,
                     'exerciseFrequency':null,
                     'gender':null,
                     'h': null,
                     'target':null,
                     'w':null,
                     'uid': authResult.uid,
-                    'myFood':[]
+                    'myFood':[],
+                    "calorieNeed":null,
                 }
             );
             return authResult;
